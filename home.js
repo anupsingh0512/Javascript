@@ -76,3 +76,18 @@ for (let num = 0; num <= 10; num++) {
   emptyArray.push(num)
 }
 console.log(emptyArray)
+
+//Objects
+let student = {
+  first: "Anup",
+  last: "Singh",
+  age: 25,
+  height: 180,
+}
+
+console.log(student.first)
+console.log(student.last)
+student.first = "noAnup"
+console.log(student.first)
+student.age++
+console.log(student.age)
