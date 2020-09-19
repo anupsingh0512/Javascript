@@ -83,11 +83,29 @@ let student = {
   last: "Singh",
   age: 25,
   height: 180,
+  studentinfo: function () {
+    return this.first + "\n" + this.last
+  },
 }
 
-console.log(student.first)
-console.log(student.last)
-student.first = "noAnup"
-console.log(student.first)
+//console.log(student.first)
+//console.log(student.last)
+//student.first = "noAnup"
+//console.log(student.first)
 student.age++
 console.log(student.age)
+
+console.log(student.studentinfo())
+
+// Conditional ,Control flows
+var age = prompt("What is your age?")
+
+if (age >= 18 && age <= 35) {
+  status = "target demo"
+  console.log(status)
+} else {
+  status = "not my audience"
+  console.log(status)
+}
+
+//Switch statement
